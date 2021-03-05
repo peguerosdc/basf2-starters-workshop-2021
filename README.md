@@ -11,3 +11,9 @@ Please be aware that you need a Belle 2 account to access all the resources link
     scp kekcc:/home/belle2/<user>/<filepath> <localpath>
     ````
 
+* To copy a whole directory from my kekcc server to my localhost (the files will be copied to `<localpath>/<directory>`):
+
+    ````
+    scp -rp kekcc:/home/belle2/<user>/<directory> <localpath>
+    ````
+
