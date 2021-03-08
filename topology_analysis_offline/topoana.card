@@ -1,0 +1,19 @@
+% Names of input root files
+{
+  MCGenTopo.root
+}
+
+% TTree name
+{
+  MCGenTopo
+}
+
+% Component analysis --- decay trees
+{
+  Y     100
+}
+
+% Common name of output files (Default: Name of the card file)
+{
+  topoana
+}
